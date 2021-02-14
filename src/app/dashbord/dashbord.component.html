@@ -1,0 +1,56 @@
+<!-- <div id="container">
+ 
+  <div class="left">
+    <button type="button" class="btn btn-primary btn-lg btn-block" routerLinkActive="active">Dashbord</button>
+    <button type="button" class="btn btn-secondary btn-lg btn-block" [routerLink]="['/dashbord/view_patient']">Requested Patients</button>
+    <button type="button" class="btn btn-secondary btn-lg btn-block" [routerLink]="['/dashbord/appointment']">New Patient</button>
+    <button type="button" class="btn btn-secondary btn-lg btn-block"
+      [routerLink]="['/dashbord/admit_patient']">Admited Patient</button>
+    <button type="button" class="btn btn-primary btn-lg btn-block"
+      [routerLink]="['/dashbord/view_doctor']">View Doctor</button>
+      <button type="button" class="btn btn-primary btn-lg btn-block"
+      [routerLink]="['/dashbord/doctor']">New Doctor</button>
+    <button type="button" class="btn btn-secondary btn-lg btn-block" routerLink="pathology"> View Pathology</button>
+    <button type="button" class="btn btn-secondary btn-lg btn-block" routerLink="pathology"> New Pathology</button>
+    <button type="button" class="btn btn-primary btn-lg btn-block" routerLink="reception">View Reception</button>
+    <button type="button" class="btn btn-primary btn-lg btn-block" routerLink="notice">New Reception</button>
+    <button type="button" class="btn btn-secondary btn-lg btn-block" routerLink="departments">Departments</button>
+    <button type="button" class="btn btn-primary btn-lg btn-block" routerLink="monitor">Monitor Doctor</button>
+    <button type="button" class="btn btn-secondary btn-lg btn-block" routerLink="logout">Logout</button>
+    
+
+  </div>
+  <div class="ri">
+  
+    <router-outlet></router-outlet>
+
+
+
+  </div>
+
+</div> -->
+
+<div class="sidenav">
+  
+
+  <button type="button" class="btn btn-primary btn-lg btn-block" routerLinkActive="active">Dashbord</button>
+  <button type="button" class="btn btn-secondary btn-lg btn-block" [routerLink]="['/dashbord/view_patient']">Requested
+    Appointments</button>
+  <button type="button" class="btn btn-secondary btn-lg btn-block" [routerLink]="['/dashbord/appointment']">New
+    Appointments</button>
+  <button type="button" class="btn btn-secondary btn-lg btn-block" [routerLink]="['/dashbord/admit_patient']">Admited
+    Patient</button>
+  <button type="button" class="btn btn-primary btn-lg btn-block" [routerLink]="['/dashbord/view_doctor']">View
+    Doctor</button>
+
+  <button type="button" class="btn btn-primary btn-lg btn-block" [routerLink]="['/dashbord/doctor']">New Doctor</button>
+  <button type="button" class="btn btn-secondary btn-lg btn-block" [routerLink]="['/dashbord/approved_apoint']"> Approve AppointMent</button>
+  <button type="button" class="btn btn-secondary btn-lg btn-block" [routerLink]="['/dashbord/payment']"> Payment List</button>
+  <button type="button" class="btn btn-primary btn-lg btn-block" [routerLink]="['/dashbord/view_reception']">View Reception</button>
+  <button type="button" class="btn btn-primary btn-lg btn-block" [routerLink]="['/dashbord/new_reception']">New Reception</button>
+  
+</div>
+
+<div class="main">
+  <router-outlet></router-outlet>
+</div>

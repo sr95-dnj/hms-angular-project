@@ -1,0 +1,67 @@
+/* #container{
+    height: 100%;
+    width: 100%;
+    
+    padding-top: 80px;
+}
+.left{
+    height: 100%;
+    width: 20%; 
+    float: left;
+    padding-left: 2%;
+    padding-right: 2%;
+   
+    
+}
+.ri{
+    height: 100%;
+    width: 80%; 
+    float: left;
+    
+    
+} */
+
+
+
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.sidenav {
+  height: 100%;
+  width: 220px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 60px;
+  
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.main {
+    margin-top: 80px;
+  margin-left: 220px; /* Same as the width of the sidenav */
+  font-size: 20px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+

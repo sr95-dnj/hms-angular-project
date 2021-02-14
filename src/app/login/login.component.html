@@ -1,0 +1,30 @@
+<div class="page">
+  <!--Login & Signup in single row-->
+  <div class="row">
+    <!--Column for signin-->
+    <div class="col-sm-8 text-center signin">
+      <!-- Default form login -->
+      <form #myForm="ngForm" (ngSubmit)="adminLogin(myForm.value)">
+        <p class="h4 mb-4 text-center signintext top"><strong>Sign in to this Website</strong></p>
+        <!--Login with Social Media Buttons-->
+        <div class="social-btn text-center"> <a href="#" class="btn btn-primary btn-lg" title="Facebook"><i
+              class="fa fa-facebook"></i></a> <a href="#" class="btn btn-info btn-lg" title="Twitter"><i
+              class="fa fa-twitter"></i></a> <a href="#" class="btn btn-danger btn-lg" title="Pinterest"><i
+              class="fa fa-pinterest"></i></a> </div>
+        <p class="text-center signintext">Or use your Email account</p> <!-- Email --> <input type="email"
+          class="form-control mb-4" name="email" placeholder="&#xf0e0; Email" style="font-family:Arial, FontAwesome"
+          ngModel>
+        <!-- Password --> <input type="password" name="password" class="form-control mb-4"
+          placeholder="&#xf023; Password" style="font-family:Arial, FontAwesome" ngModel> <!-- Sign in button --> <a
+          class="ForgotPassBtn" href="">Forgot Your
+          Password?</a> <button class="btn btn-info btn-block LoginBtn" type="submit">SIGN IN</button>
+      </form>
+    </div>
+    <!--Column for signin-->
+    <div class="col-sm-4 signup text-center">
+      <h2 class="HelloFriend">Hello, Friend!</h2>
+      <h3 class="SignupText"><b>Enter your personal details<br>and start journey with us</b></h3> <button
+        class="btn btn-info btn-block signupbtn" type="submit" (click)="regi()">SIGN UP</button>
+    </div>
+  </div>
+</div>

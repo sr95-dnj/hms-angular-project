@@ -1,0 +1,78 @@
+<div class="apoint">
+  <h3>Appointment Request Form</h3>
+  <br><br>
+  <form #myForm="ngForm">
+
+    
+
+    <div class="form-group row">
+      <label for="inputPassword" class="col-sm-2 col-form-label"><strong>Category</strong></label>
+      <div class="col-sm-6">
+        <select class="input-group " name="category" id="" ngModel>
+          <optgroup>
+            <option value="">Select Category</option>
+            <option value="Medicine">Medicine</option>
+            <option value="Sergary">Sergary</option>
+            <option value="Heart">Heart</option>
+          </optgroup>
+        </select>
+      </div>
+    
+    </div>
+
+    <div class="form-group row">
+      <label for="inputPassword" class="col-sm-2 col-form-label"><strong>Doctor</strong></label>
+      <div class="col-sm-6">
+        <select class="input-group " name="doctor" id="" ngModel >
+          <optgroup>
+            <option value="{{ab.name}}" *ngFor="let ab of getData">{{ab.name}}</option>
+            
+            
+          </optgroup>
+        </select>
+      </div>
+    
+    </div>
+
+    <div class="form-group row">
+      <label for="inputPassword" class="col-sm-2 col-form-label"><strong>Name</strong></label>
+      <div class="col-sm-6">
+        <input type="text" name="name" class="form-control" id="name" ngModel>
+      </div>
+
+    </div>
+
+    <div class="form-group row">
+      <label for="inputPassword" class="col-sm-2 col-form-label"><strong>Address</strong></label>
+      <div class="col-sm-6">
+        <input type="text" name="address" class="form-control" id="address" ngModel>
+      </div>
+
+    </div>
+    
+
+    <div class="form-group row">
+      <label for="inputPassword" class="col-sm-2 col-form-label"><strong>Email</strong></label>
+      <div class="col-sm-6">
+        <input type="text" name="email" class="form-control" id="disease" ngModel>
+      </div>
+
+    </div>
+
+    <div class="form-group row">
+      <label for="inputPassword" class="col-sm-2 col-form-label"><strong>Mobile</strong></label>
+      <div class="col-sm-6">
+        <input type="text" name="mobile" class="form-control" id="inputPassword" ngModel>
+      </div>
+
+    </div>
+
+    <div style="text-align: center;">
+      <button type="button" style=" text-align: center;" (click)="createAppointment(myForm.value)"
+        class="btn btn-primary">Request for Appointment</button>
+
+    </div>
+
+
+  </form>
+</div>

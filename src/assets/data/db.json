@@ -1,0 +1,233 @@
+{
+  "admin": [
+    {
+      "name": "Siddiquer Rahman",
+      "email": "siddiquerrahman95@gmail.com",
+      "password": "1234",
+      "confirmPass": "1234",
+      "id": 1
+    },
+    {
+      "name": "Golam",
+      "email": "rtrgolam",
+      "password": "1234",
+      "confirmPass": "1234",
+      "id": 2
+    },
+    {
+      "name": "aaa",
+      "email": "siddiquerrahman95@.com",
+      "password": "123",
+      "confirmPass": "123",
+      "id": 3
+    }
+  ],
+  "doctors": [
+    {
+      "joindate": "12/12/20",
+      "name": "Siddiquer",
+      "dob": "07/09/1995",
+      "specialist": "Medicine",
+      "address": "Birol, Dinajpur",
+      "email": "siddiquerrahman95@gmail.com",
+      "password": "7771374",
+      "mobile": "01784988095",
+      "jobid": "qqqqqq",
+      "comment": "Is available",
+      "id": 1
+    },
+    {
+      "joindate": "01/10/20",
+      "name": "Ahsun Habib",
+      "dob": "12/09/1994",
+      "specialist": "Medicine",
+      "address": "Rangpur",
+      "email": "ahsunhabib@gmail.com",
+      "password": "1234",
+      "mobile": "01780000983",
+      "jobid": "d123",
+      "comment": "Is available",
+      "id": 2
+    },
+    {
+      "joindate": "12/12/20",
+      "name": "Siddiquer Rahman",
+      "dob": "07/09/1995",
+      "specialist": "Medicine",
+      "address": "Birol",
+      "email": "siddiquerrahman95@gmail.com",
+      "password": "7771374",
+      "mobile": "01784988095",
+      "jobid": "abc121",
+      "comment": "Is available",
+      "id": 3
+    },
+    {
+      "joindate": "01/10/20",
+      "name": "Milton",
+      "dob": "07/09/1995",
+      "specialist": "Arthopedic",
+      "address": "Sathkhira",
+      "email": "rtrgolam",
+      "password": "7771374",
+      "mobile": "01780000983",
+      "jobid": "123as",
+      "comment": "Is available",
+      "id": 4
+    },
+    {
+      "joindate": "01/10/20",
+      "name": "Dr. Forrque Ahmed",
+      "dob": "12/09/1993",
+      "specialist": "Medicine",
+      "address": "Malibag, Dhaka",
+      "email": "forruque123@gmail.com",
+      "password": "1111",
+      "mobile": "01839091330",
+      "jobid": "sadfa",
+      "comment": "Is available",
+      "id": 5
+    }
+  ],
+  "receptions": [
+    {
+      "no": "101",
+      "block": "4th Block",
+      "department": "Medicine",
+      "id": 1
+    },
+    {
+      "no": "102",
+      "block": "3rd Block",
+      "name": "Siddiquer Rahman",
+      "department": "Medicine",
+      "id": 2
+    },
+    {
+      "no": "103",
+      "block": "4th Block",
+      "name": "Milton",
+      "department": "Medicine",
+      "mobile": "01839091330",
+      "id": 3
+    }
+  ],
+  "payment": [
+    {
+      "name": "Siddiquer Rahman",
+      "address": "Birol",
+      "mobile": "01780000983",
+      "id": 1
+    },
+    {
+      "name": "Siddiquer Rahman",
+      "address": "Birol",
+      "mobile": "01780000983",
+      "id": 2
+    },
+    {
+      "name": "Habib",
+      "address": "Rangpur",
+      "mobile": "01859153332",
+      "id": 3
+    },
+    {
+      "name": "Siddiquer Rahman",
+      "address": "Birol",
+      "mobile": "01784988095",
+      "id": 4
+    },
+    {
+      "name": "Siddiquer Rahman",
+      "address": "Birol",
+      "mobile": "01784988095",
+      "id": 5
+    },
+    {
+      "name": "Siddiquer Rahman",
+      "address": "Birol",
+      "mobile": "01784988095",
+      "id": 6
+    },
+    {
+      "name": "Siddiquer Rahman",
+      "address": "Birol",
+      "mobile": "01780000983",
+      "id": 7
+    }
+  ],
+  "appointment": [],
+  "approvedAppointment": [
+    {
+      "name": "Siddiquer Rahman",
+      "address": "Birol",
+      "doctor": "Alauddin",
+      "mobile": "01784988095",
+      "id": 3
+    },
+    {
+      "name": "Forruque",
+      "address": "Jhinaidha",
+      "category": "Medicine",
+      "doctor": "",
+      "mobile": "01859153332",
+      "id": 4
+    },
+    {
+      "name": "Habib",
+      "address": "Rangpur",
+      "category": "",
+      "doctor": "",
+      "mobile": "01859153332",
+      "id": 5
+    },
+    {
+      "name": "Siddiquer Rahman",
+      "address": "Birol",
+      "category": "Medicine",
+      "doctor": "Ahsun Habib",
+      "mobile": "01780000983",
+      "id": 6
+    },
+    {
+      "name": "Siddiquer Rahman",
+      "address": "Birol",
+      "category": "Sergary",
+      "doctor": "Dr. Forrque Ahmed",
+      "mobile": "01784988095",
+      "id": 7
+    },
+    {
+      "name": "Siddiquer Rahman",
+      "address": "Birol",
+      "category": "Medicine",
+      "doctor": "Siddiquer Rahman",
+      "mobile": "01839091330",
+      "id": 8
+    },
+    {
+      "name": "Siddiquer Rahman",
+      "address": "Birol",
+      "category": "Medicine",
+      "doctor": "Ahsun Habib",
+      "mobile": "01780000983",
+      "id": 9
+    }
+  ],
+  "admit": [
+    {
+      "name": "Siddiquer Rahman",
+      "address": "Birol",
+      "doctor": "Alauddin",
+      "mobile": "01784988095",
+      "id": 1
+    },
+    {
+      "name": "Forruque",
+      "address": "Jhinaidha",
+      "doctor": "",
+      "mobile": "01859153332",
+      "id": 2
+    }
+  ]
+}

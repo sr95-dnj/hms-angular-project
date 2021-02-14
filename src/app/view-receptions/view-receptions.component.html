@@ -1,0 +1,35 @@
+<div class="right">
+  <h3>Reception List</h3>
+  <table class="table table-striped table-hover">
+
+    <thead>
+      <tr>
+
+        <th scope="col">Reception No</th>
+        <th scope="col">Block No</th>
+        <th scope="col"><i>Receptionist Name</i></th>
+        <th scope="col">Department</th>
+        
+
+
+        <th scope="col">Mobile</th>
+
+
+
+
+
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let appointment of allReception">
+        <th scope="row">{{appointment.no}}</th>
+
+        <td>{{appointment.block}}</td>
+        <td>{{appointment.name}}</td>
+        <td>{{appointment.department}}</td>
+        <td>{{appointment.mobile}}</td>
+
+      </tr>
+    </tbody>
+  </table>
+</div>

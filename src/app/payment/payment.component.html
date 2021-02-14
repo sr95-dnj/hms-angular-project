@@ -1,0 +1,32 @@
+<div class="right">
+  <h3>Reception List</h3>
+  <table class="table table-striped table-hover">
+
+    <thead>
+      <tr>
+
+        <th scope="col">Name</th>
+        <th scope="col">Address</th>
+        <th scope="col"><i>Mobile Name</i></th>
+        <th scope="col">Total</th>
+
+
+
+
+
+
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let appointment of payAll">
+        <th scope="row">{{appointment.name}}</th>
+
+        <td>{{appointment.address}}</td>
+        <td>{{appointment.mobile}}</td>
+        <td>3000</td>
+       
+
+      </tr>
+    </tbody>
+  </table>
+</div>
